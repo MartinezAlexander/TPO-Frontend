@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Shawdows Into Ligth t";
+    src: url("../fuentes/ShadowsIntoLight-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Shawdows Into Ligth t", Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #e6e6e6;
+    padding: 2%;
+}
+
+header>img {
+    display: block;
+    width: 10%;
+    margin: 0px auto;
+    border: 1px solid black;
+    border-radius: 99px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+header>h1 {
+    width: 75%;
+    margin: 0px auto;
+    padding-top: 0.5%;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgb(44, 44, 44);
+}
+
+@media (max-width: 414px) {
+    header>h1 {
+        font-size: 25px;
+    }
+}

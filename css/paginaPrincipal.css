@@ -157,9 +157,10 @@ article > p , article > img{
 }
 
 article > p {
-    width: 66.5%;
-    padding-left: 0.5%;
+    width: 66%;
+    padding-left: 1%;
     margin-right: 3%;
+    font-family:  sans-serif,Arial, Helvetica;
     background-color: rgba(255, 255, 255, 0.61);
     box-shadow: 0px 0px 8px black inset;
     overflow-y: scroll;

@@ -96,6 +96,78 @@ nav>ul>li>a:hover {
     text-decoration: underline;
 }
 
+/*Maquetacion del contenido central*/
+
+#contenidoCentral{
+    width: 95%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+main,aside{
+    padding: 1%;
+}
+
+main{
+    width: 65%;
+    float:left;
+}
+
+aside{
+    width: 30%;
+    float: left;
+}
+
+main>section{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2%;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid black;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 4px rgb(109, 108, 108);
+}
+
+section > h2{
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.555);
+    box-shadow: 0px 0px 4px black inset;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+article{
+    width: 95%;
+    margin: 0px auto;
+    padding: 1% 0px;
+}
+
+article > p , article > img{
+    display: block;
+    float: left;
+    max-height: 230px;
+}
+
+article > p {
+    width: 66.5%;
+    padding-left: 0.5%;
+    margin-right: 3%;
+    background-color: rgba(255, 255, 255, 0.61);
+    box-shadow: 0px 0px 8px black inset;
+    overflow-y: scroll;
+}
+
+article > img {
+    width: 30%;
+    border-radius: 15px 0px;
+    box-shadow: 0px 0px 6px white;
+}
+
 @media (max-width: 414px) {
     header>img {
         width: 30%;

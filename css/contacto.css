@@ -370,6 +370,26 @@ footer{
         line-height: 40px;
     }
 
+    #contenidoCentral{
+        width: 100%;
+    }
+
+    #contenidoCentral > main > section{
+        border-radius: 25px;
+    }
+
+    #biografia > article > img,
+    #biografia > article > p,
+    #biografia > article > #conocimientos{
+        float: none;
+        width: 95%;
+        margin-bottom: 2%;
+    }
+
+    #biografia > article > p{
+        border-radius: 25px;
+    }
+
     #informacion{
         width: 100%;
         padding: 0px;

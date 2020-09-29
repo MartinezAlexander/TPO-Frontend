@@ -3,6 +3,10 @@
     src: url("../fuentes/ShadowsIntoLight-Regular.ttf");
 }
 
+body{
+    background-image: url("../img/patronUno.jpg");
+}
+
 .clearfix {
     float: none;
     clear: both;
@@ -19,7 +23,7 @@
 
 header {
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: #d6d6d6;
     padding: 2% 0px;
 }
 
@@ -101,7 +105,6 @@ nav>ul>li>a:hover {
 #contenidoCentral{
     width: 95%;
     margin: 0px auto;
-    border: 1px solid black;
 }
 
 main,aside{

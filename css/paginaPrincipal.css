@@ -219,6 +219,17 @@ aside > section{
     aside > section{
         margin-bottom: 2%;
     }
+
+    main>section, aside > section{
+        height: max-content;
+    }
+
+    article > p , article > img{
+        float: none;
+        width: 100%;
+        max-height: 230px;
+        margin-bottom: 5%;
+    }
 }
 
 @media (max-width: 375px) {

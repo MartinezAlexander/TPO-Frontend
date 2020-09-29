@@ -176,6 +176,32 @@ aside > section{
     margin-bottom: 4%;
 }
 
+/* Maquetacion del footer */
+
+footer{
+    width: 99.5%;
+    height: 100px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.904);
+    border: 1px solid black;
+}
+
+#informacion{
+    width: 70%;
+    padding: 2%;
+    margin: auto;
+}
+
+#informacion > p{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#informacion > p > a{
+    color:#ccccccaf;
+}
+
 /* Responsive con medias queries */
 
 @media (max-width: 414px) {
@@ -230,6 +256,19 @@ aside > section{
         width: 100%;
         max-height: 230px;
         margin-bottom: 5%;
+    }
+
+    #informacion{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        padding-top: 1.5%;
+    }
+
+    #informacion > p{
+        color:white;
+        font-size: 16px;
+        text-align: center;
     }
 }
 

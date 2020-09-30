@@ -204,6 +204,7 @@ footer{
 
 /* Responsive con medias queries */
 
+/* Para smartphones */
 @media (max-width: 414px) {
     header>img {
         width: 30%;
@@ -273,5 +274,21 @@ footer{
     nav>ul>li>a {
         font-size: 18px;
         line-height: 40px;
+    }
+}
+
+/* Para tablets */
+@media (max-width:768px){
+    main, aside{
+        float: none;
+        width: 100%;
+    }
+
+    aside > section{
+        margin-bottom: 2%;
+    }
+
+    main>section, aside > section{
+        height: max-content;
     }
 }

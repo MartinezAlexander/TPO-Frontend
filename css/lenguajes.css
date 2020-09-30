@@ -106,6 +106,68 @@ nav>ul>li>a:hover {
 #contenidoCentral{
     width: 95%;
     margin: 0px auto;
+    margin-top: 1.5%;
+    padding: 1%;
+    padding-bottom: 0%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section{
+    flex-grow: 1;
+    height: max-content;
+    margin-bottom: 2%;
+    background-color: rgb(39, 39, 39);
+    border: 1px solid black;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 4px rgb(109, 108, 108);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section > div{
+    flex-grow: 3;
+    flex-basis: 95%;
+    border-radius: 30px;
+    background-color: rgb(131, 131, 131);
+    box-shadow: 0px 0px 5px white inset;
+    height: max-content;
+    margin-top: 1%;
+}
+
+h2{
+    width: 95%;
+    margin: 1% auto;
+    padding: 0.5%;
+    background-color: rgb(173, 173, 173);
+    box-shadow: 0px 0px 5px white;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+article{
+    flex-grow: 1;
+    flex-basis: calc(94%/3);
+    min-width: calc(94%/3);
+    margin: 1%;
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+    height: 300px;
+}
+
+.imagenLenguaje{
+    width: 100%;
+    height: 300px;
+}
+
+article > p{
+    width: 98%;
+    padding-left: 2%;
+    height: 300px;
+    background-color: rgba(128, 128, 128, 0.253);
+    overflow-y: scroll;
 }
 
 /* Maquetacion del footer */
@@ -166,7 +228,9 @@ footer{
         font-size: 20px;
         line-height: 40px;
     }
-
+    #contenidoCentral{
+        width: 100%;
+    }
     #informacion{
         width: 100%;
         padding: 0px;

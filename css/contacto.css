@@ -500,7 +500,9 @@ footer{
         margin: 2% auto ;
     }
 
-
+    #contactoInfo p{
+        margin-top: 3.5%;
+    }
 
     #informacion{
         width: 100%;

@@ -205,6 +205,73 @@ section>h2 {
     text-decoration: underline;
 }
 
+#formularioUqbar{
+    width: calc(81% - 2px);
+    margin: 1.5% auto;
+    padding: 0% 2%;
+    background-color: rgb(85, 77, 77);
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px black;
+    max-height: 350px;
+}
+
+.itemForm{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(43, 43, 43, 0.493) inset;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    background-color: rgba(245, 222, 179, 0.493);
+}
+
+.etiquetas{
+    padding: 2%;
+    padding-right: 0%;
+    width: 80%;
+    color: black;
+}
+
+.entradas{
+    background-color: rgba(128, 128, 128, 0.404);
+    border: 1px solid black;
+    margin-left: 2%;
+    width: 85%;
+    box-shadow: 0px 0px 4px gray;
+    transition: all 300ms;
+}
+
+.entradas::-webkit-input-placeholder{
+    color:black;
+}
+
+.entradas:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+    box-shadow: 0px 0px 5px black inset;
+}
+
+option{
+    background-color: rgba(245, 222, 179, 0.493);
+}
+
+#botonEnvio{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 86%;
+    border: 1px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px gray;
+    background-color: rgba(255, 255, 255, 0.253);
+    transition: all 500ms;
+}
+
+#botonEnvio:hover{
+    background-color: cadetblue;
+    box-shadow: 0px 0px 5px black inset;
+    cursor: pointer;
+}
+
 #conocimientos>img {
     width: 300px;
     height: 300px;

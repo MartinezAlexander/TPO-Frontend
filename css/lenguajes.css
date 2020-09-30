@@ -197,7 +197,7 @@ footer{
 }
 
 /* Responsive con medias queries */
-
+/* Para smartphones */
 @media (max-width: 414px) {
     header>img {
         width: 30%;
@@ -259,5 +259,16 @@ footer{
     nav>ul>li>a {
         font-size: 18px;
         line-height: 40px;
+    }
+}
+
+/* Para tablets */
+@media (max-width:768px){
+    #tutorialPy,
+    #tutorialJs,
+    #tutorialCss,
+    #tutorialHtml{
+        flex-grow: 3;
+        flex-basis: 95%;
     }
 }

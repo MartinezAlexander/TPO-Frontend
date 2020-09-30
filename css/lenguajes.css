@@ -231,6 +231,16 @@ footer{
     #contenidoCentral{
         width: 100%;
     }
+    section{
+        flex-flow: column nowrap;
+        padding-bottom: 1%;
+    }
+    article{
+        margin-top: 2%;
+    }
+    img,article,iframe,p,section{
+        border-radius: 25px;
+    }
     #informacion{
         width: 100%;
         padding: 0px;

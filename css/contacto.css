@@ -5,7 +5,7 @@
     src: url("../fuentes/ShadowsIntoLight-Regular.ttf");
 }
 
-body{
+body {
     background-image: url("../img/patronUno.jpg");
 }
 
@@ -55,6 +55,7 @@ header>h1 {
     box-shadow: 0px 0px 5px black;
 }
 
+
 /*Maquetacion del menu*/
 
 nav {
@@ -101,24 +102,25 @@ nav>ul>li>a:hover {
     text-decoration: underline;
 }
 
+
 /*Maquetacion del contenido central*/
 
-#contenidoCentral{
+#contenidoCentral {
     width: 95%;
     margin: 0px auto;
 }
 
-#contenidoCentral > main > section{
+#contenidoCentral>main>section {
     width: 100%;
     height: max-content;
-    background-color:rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
     margin-top: 1%;
     border: 1px solid black;
     border-radius: 0px 20px 0px 20px;
     box-shadow: 2px 2px 4px rgb(109, 108, 108);
 }
 
-section > h2{
+section>h2 {
     width: 95%;
     margin: 0px auto;
     margin-top: 1%;
@@ -131,9 +133,12 @@ section > h2{
     border-radius: 15px;
 }
 
-#biografia > article > img,
-#biografia > article > p,
-#biografia > article > #conocimientos{
+#biografia>article>img,
+#biografia>article>p,
+#biografia>article>#conocimientos,
+#uqbar>article>img,
+#uqbar>article>p,
+#uqbar>article>#formularioContacto {
     display: block;
     width: 32%;
     background-color: white;
@@ -145,18 +150,21 @@ section > h2{
     float: left;
 }
 
-#biografia > article{
+#biografia>article,
+#uqbar>article {
     display: block;
     min-height: max-content;
     margin: 1%;
     float: none;
 }
 
-#biografia > article > img{
+#biografia>article>img,
+#uqbar>article>img {
     margin-left: 1%;
 }
 
-#biografia > article > p{
+#biografia>article>p,
+#uqbar>article>p {
     width: 28%;
     padding: 2%;
     height: 350px;
@@ -169,18 +177,21 @@ section > h2{
     overflow-y: scroll;
 }
 
-#biografia > article > #conocimientos{
+#biografia>article>#conocimientos,
+#uqbar>article>#formularioContacto {
     margin-right: 0px;
     background-color: rgba(255, 255, 255, 0.61);
 }
 
-#conocimientos *{
+#conocimientos *,
+#formularioContacto * {
     display: block;
 }
 
-#conocimientos > p,
-#ubicacion > h3,
-#contactoDirecto > h3 {
+#conocimientos>p,
+#ubicacion>h3,
+#contactoDirecto>h3,
+#formularioContacto>p {
     width: 90%;
     margin: 0px auto;
     margin-top: 2%;
@@ -194,7 +205,7 @@ section > h2{
     text-decoration: underline;
 }
 
-#conocimientos > img{
+#conocimientos>img {
     width: 300px;
     height: 300px;
     margin: 0px auto;
@@ -205,7 +216,7 @@ section > h2{
     animation-iteration-count: infinite;
 }
 
-.nivel{
+.nivel {
     width: 90%;
     margin: 0px auto;
     margin-top: 2%;
@@ -214,151 +225,151 @@ section > h2{
     border-radius: 25px;
 }
 
-#conocimientos > div > p{
+#conocimientos>div>p {
     width: 30%;
     border-radius: 25px;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    float:left;
+    float: left;
 }
 
-.barra{
+.barra {
     height: 26px;
     width: 70%;
     background-color: rgb(247, 230, 230);
     border-radius: 25px;
-    float:left;
+    float: left;
 }
 
-.nivelEnBarra{
+.nivelEnBarra {
     width: 80%;
     height: 100%;
     background-color: cadetblue;
     border-radius: 25px;
     text-align: center;
     animation-name: cambiarNivel;
-    animation-duration: 55s; 
+    animation-duration: 55s;
     animation-iteration-count: infinite;
 }
 
-#nivelEnPorcentaje::after{
+#nivelEnPorcentaje::after {
     content: "";
     animation-name: cambiarPorcentaje;
-    animation-duration: 55s; 
+    animation-duration: 55s;
     animation-iteration-count: infinite;
 }
 
-@keyframes cambiarPorcentaje{
-    0%{
+@keyframes cambiarPorcentaje {
+    0% {
         content: "85%";
     }
-    10%{
+    10% {
         content: "80%";
     }
-    20%{
+    20% {
         content: "40%";
     }
-    30%{
+    30% {
         content: "65%";
     }
-    40%{
+    40% {
         content: "45%";
     }
-    50%{
+    50% {
         content: "60%";
     }
-    60%{
+    60% {
         content: "70%";
     }
-    70%{
+    70% {
         content: "75%";
     }
-    80%{
+    80% {
         content: "50%";
     }
-    90%{
+    90% {
         content: "30%";
     }
-    100%{
+    100% {
         content: "65%";
     }
 }
 
-@keyframes cambiarLenguaje{
-    0%{
+@keyframes cambiarLenguaje {
+    0% {
         content: url("../img/c.PNG");
     }
-    10%{
+    10% {
         content: url("../img/java.PNG");
     }
-    20%{
+    20% {
         content: url("../img/ruby.png");
     }
-    30%{
+    30% {
         content: url("../img/cplusplus.png");
     }
-    40%{
+    40% {
         content: url("../img/sql.PNG");
     }
-    50%{
+    50% {
         content: url("../img/hibernate.jpg");
     }
-    60%{
-        content:url("../img/html.jpg") ;
+    60% {
+        content: url("../img/html.jpg");
     }
-    70%{
+    70% {
         content: url("../img/css.png");
     }
-    80%{
+    80% {
         content: url("../img/bootstrap.png");
     }
-    90%{
+    90% {
         content: url("../img/javascript.png");
     }
-    100%{
+    100% {
         content: url("../img/github.png");
     }
 }
 
-@keyframes cambiarNivel{
-    0%{
+@keyframes cambiarNivel {
+    0% {
         width: 85%;
     }
-    10%{
+    10% {
         width: 80%;
     }
-    20%{
+    20% {
         width: 40%;
     }
-    30%{
+    30% {
         width: 65%;
     }
-    40%{
+    40% {
         width: 45%;
     }
-    50%{
+    50% {
         width: 60%;
     }
-    60%{
+    60% {
         width: 70%;
     }
-    70%{
+    70% {
         width: 75%;
     }
-    80%{
+    80% {
         width: 50%;
     }
-    90%{
+    90% {
         width: 30%;
     }
-    100%{
+    100% {
         width: 65%;
     }
 }
 
-#ubicacionContacto > article{
-    border:  1px solid white;
+#ubicacionContacto>article {
+    border: 1px solid white;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.61);
     margin: 1% 0% 1% 1%;
@@ -366,18 +377,18 @@ section > h2{
     float: left;
 }
 
-#ubicacion{
+#ubicacion {
     width: 50%;
 }
 
-#ubicacion > h3,
-#contactoDirecto > h3{
+#ubicacion>h3,
+#contactoDirecto>h3 {
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
 #iframeUbicacion,
-#contactoInfo{
+#contactoInfo {
     width: 95%;
     margin: 0% auto;
     border: 1px solid black;
@@ -386,16 +397,16 @@ section > h2{
     box-shadow: 0px 0px 4px black;
 }
 
-iframe{
+iframe {
     border-radius: 25px;
 }
 
-#contactoDirecto{
+#contactoDirecto {
     width: 40%;
     height: 250px;
 }
 
-#contactoInfo p{
+#contactoInfo p {
     width: 95%;
     margin: 0% auto;
     margin-top: 2%;
@@ -406,18 +417,18 @@ iframe{
     box-shadow: 0px 0px 3px black inset;
 }
 
-#contactoInfo > p > a:hover{
-    color:rgba(13, 68, 70, 0.918);
+#contactoInfo>p>a:hover {
+    color: rgba(13, 68, 70, 0.918);
 }
 
-#contactoInfo > p > a{
-    color:black;
+#contactoInfo>p>a {
+    color: black;
 }
 
 
 /* Maquetacion del footer */
 
-footer{
+footer {
     width: 99.5%;
     height: max-content;
     margin: auto;
@@ -425,21 +436,22 @@ footer{
     border: 1px solid black;
 }
 
-#informacion{
+#informacion {
     width: 70%;
     padding: 2%;
     margin: auto;
 }
 
-#informacion > p{
-    color:white;
+#informacion>p {
+    color: white;
     font-size: 20px;
     text-align: center;
 }
 
-#informacion > p > a{
-    color:#ccccccaf;
+#informacion>p>a {
+    color: #ccccccaf;
 }
+
 
 /* Responsive con medias queries */
 
@@ -473,46 +485,47 @@ footer{
         font-size: 20px;
         line-height: 40px;
     }
-
-    #contenidoCentral{
+    #contenidoCentral {
         width: 100%;
     }
-
-    #contenidoCentral > main > section{
+    #contenidoCentral>main>section {
         border-radius: 25px;
     }
-
-    #biografia > article > img,
-    #biografia > article > p,
-    #biografia > article > #conocimientos{
+    #biografia>article>img,
+    #biografia>article>p,
+    #biografia>article>#conocimientos,
+    #uqbar>article>img,
+    #uqbar>article>p,
+    #uqbar>article>#formularioContacto {
         float: none;
         width: 95%;
         margin-bottom: 2%;
+        margin-left: 2%;
     }
-
-    #biografia > article > p{
+    #biografia>article>p,
+    #uqbar>article>p {
         border-radius: 25px;
     }
-
-    #ubicacionContacto > article{
+    #uqbar>article>p,
+    #biografia>article>p {
+        width: 92%;
+    }
+    #ubicacionContacto>article {
         float: none;
         width: 90%;
-        margin: 2% auto ;
+        margin: 2% auto;
     }
-
-    #contactoInfo p{
+    #contactoInfo p {
         margin-top: 3.5%;
     }
-
-    #informacion{
+    #informacion {
         width: 100%;
         padding: 0px;
         margin: 0px;
         padding-top: 1.5%;
     }
-
-    #informacion > p{
-        color:white;
+    #informacion>p {
+        color: white;
         font-size: 16px;
         text-align: center;
     }

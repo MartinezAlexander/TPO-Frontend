@@ -494,6 +494,14 @@ footer{
         border-radius: 25px;
     }
 
+    #ubicacionContacto > article{
+        float: none;
+        width: 90%;
+        margin: 2% auto ;
+    }
+
+
+
     #informacion{
         width: 100%;
         padding: 0px;

@@ -522,6 +522,38 @@ footer {
 
 /* Responsive con medias queries */
 
+/* Para tablets */
+@media (max-width:768px){
+    #biografia>article>img,
+    #biografia>article>p,
+    #uqbar>article>img,
+    #uqbar>article>p{
+        margin-top: 1%;
+        width: 45%;
+        margin-bottom: 2%;
+    }
+    #biografia>article>p,
+    #uqbar>article>p{
+        margin-left: 2%;
+        height: 370px;
+    }
+    #biografia>article>#conocimientos,
+    #uqbar>article>#formularioContacto
+    {
+        margin-top: 2%;
+        width: 100%;
+        margin-bottom: 2%;
+        height: 500px;
+    }
+    #conocimientos>img{
+        width: 75%;
+        height: 75%;
+    }
+    #formularioUqbar{
+        max-height: 700px;
+    }
+}
+
 /* Para smartphones */
 @media (max-width: 414px) {
     header>img {
@@ -578,6 +610,15 @@ footer {
     #biografia>article>p {
         width: 92%;
     }
+    #uqbar>article>#formularioContacto{
+        height: max-content;
+        padding-bottom: 1%;
+    }
+    #formularioUqbar{
+        height: max-content;
+        width: 92%;
+        border-radius: 15px;
+    }
     #ubicacionContacto>article {
         float: none;
         width: 90%;
@@ -603,37 +644,5 @@ footer {
     nav>ul>li>a {
         font-size: 18px;
         line-height: 40px;
-    }
-}
-
-/* Para tablets */
-@media (max-width:768px){
-    #biografia>article>img,
-    #biografia>article>p,
-    #uqbar>article>img,
-    #uqbar>article>p{
-        margin-top: 1%;
-        width: 45%;
-        margin-bottom: 2%;
-    }
-    #biografia>article>p,
-    #uqbar>article>p{
-        margin-left: 2%;
-        height: 370px;
-    }
-    #biografia>article>#conocimientos,
-    #uqbar>article>#formularioContacto
-    {
-        margin-top: 2%;
-        width: 100%;
-        margin-bottom: 2%;
-        height: 500px;
-    }
-    #conocimientos>img{
-        width: 75%;
-        height: 75%;
-    }
-    #formularioUqbar{
-        max-height: 700px;
     }
 }
